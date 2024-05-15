@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fasce SYSTEM "Fasce_Orarie.dtd">
+<fasce>
+  <fascia timeID="1">
+    <ora_inizio>10:00:00</ora_inizio>
+    <ora_fine>11:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="2">
+    <ora_inizio>11:00:00</ora_inizio>
+    <ora_fine>12:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="3">
+    <ora_inizio>12:00:00</ora_inizio>
+    <ora_fine>13:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="4">
+    <ora_inizio>13:00:00</ora_inizio>
+    <ora_fine>14:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="5">
+    <ora_inizio>14:00:00</ora_inizio>
+    <ora_fine>15:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="7">
+    <ora_inizio>15:00:00</ora_inizio>
+    <ora_fine>16:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="8">
+    <ora_inizio>16:00:00</ora_inizio>
+    <ora_fine>17:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="9">
+    <ora_inizio>17:00:00</ora_inizio>
+    <ora_fine>18:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="10">
+    <ora_inizio>18:00:00</ora_inizio>
+    <ora_fine>19:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="11">
+    <ora_inizio>19:00:00</ora_inizio>
+    <ora_fine>20:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="12">
+    <ora_inizio>20:00:00</ora_inizio>
+    <ora_fine>21:00:00</ora_fine>
+  </fascia>
+  <fascia timeID="13">
+    <ora_inizio>21:00:00</ora_inizio>
+    <ora_fine>22:00:00</ora_fine>
+  </fascia>
+</fasce>

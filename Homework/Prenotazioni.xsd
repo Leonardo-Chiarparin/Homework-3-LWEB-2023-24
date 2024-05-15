@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="prenotazioni">
+		<xsd:complexType> 
+			<xsd:sequence>
+				<xsd:element ref="prenotazione" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="prenotazione">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="data" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="fascia" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="campo" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="totale" minOccurs="1" maxOccurs="1" />
+			</xsd:sequence>
+	   
+			<xsd:attribute name="bookingID" type="xsd:integer" use="required" />
+			<xsd:attribute name="pagamento" use="required">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="N"/>
+						<xsd:enumeration value="Y"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="cliente" type="xsd:integer" use="required" />
+
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="data" type="xsd:date" />
+	<xsd:element name="fascia" type="inizioFine" />
+	<xsd:element name="campo">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:string">
+					<xsd:attribute name="disciplina" type="xsd:string" use="required" />
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="totale" type="xsd:decimal"/>
+
+
+	<xsd:complexType name="inizioFine">
+		<xsd:sequence>
+			<xsd:element ref="ora_inizio" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="ora_fine" minOccurs="1" maxOccurs="1" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element name="ora_inizio" type="xsd:time" />
+	<xsd:element name="ora_fine" type="xsd:time" />
+
+</xsd:schema>

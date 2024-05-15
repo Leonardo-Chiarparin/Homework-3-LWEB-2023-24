@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE campi SYSTEM "Campi.dtd">
+<campi>
+  <campo fieldID="1" disciplina="Calcio a 5">
+    <nome>Olimpico</nome>
+    <tariffa>5.00</tariffa>
+  </campo>
+  <campo fieldID="3" disciplina="Calcio a 5">
+    <nome>Barbera</nome>
+    <tariffa>5.00</tariffa>
+  </campo>
+  <campo fieldID="4" disciplina="Calcio a 5">
+    <nome>San Nicola</nome>
+    <tariffa>5.00</tariffa>
+  </campo>
+  <campo fieldID="5" disciplina="Calcio a 5">
+    <nome>Mapei</nome>
+    <tariffa>5.00</tariffa>
+  </campo>
+  <campo fieldID="6" disciplina="Calcio a 6">
+    <nome>San Siro</nome>
+    <tariffa>6.00</tariffa>
+  </campo>
+  <campo fieldID="7" disciplina="Calcio a 6">
+    <nome>Bernabeu</nome>
+    <tariffa>6.00</tariffa>
+  </campo>
+  <campo fieldID="8" disciplina="Calcio a 8">
+    <nome>Camp Nou</nome>
+    <tariffa>8.00</tariffa>
+  </campo>
+  <campo fieldID="9" disciplina="Calcio a 8">
+    <nome>Maradona</nome>
+    <tariffa>8.00</tariffa>
+  </campo>
+  <campo fieldID="10" disciplina="Basket">
+    <nome>United Center</nome>
+    <tariffa>6.50</tariffa>
+  </campo>
+  <campo fieldID="11" disciplina="Basket">
+    <nome>American Airlines Center</nome>
+    <tariffa>6.50</tariffa>
+  </campo>
+  <campo fieldID="12" disciplina="Tennis">
+    <nome>Arthur Ashe Stadium</nome>
+    <tariffa>8.50</tariffa>
+  </campo>
+  <campo fieldID="13" disciplina="Tennis">
+    <nome>Beogradska Arena</nome>
+    <tariffa>8.50</tariffa>
+  </campo>
+  <campo fieldID="14" disciplina="Tennis">
+    <nome>Indian Wells Tennis Garden</nome>
+    <tariffa>8.50</tariffa>
+  </campo>
+  <campo fieldID="15" disciplina="Tennis">
+    <nome>Inalpi Arena</nome>
+    <tariffa>8.50</tariffa>
+  </campo>
+  <campo fieldID="16" disciplina="Tennis">
+    <nome>Court Philippe Chatrier</nome>
+    <tariffa>8.50</tariffa>
+  </campo>
+  <campo fieldID="17" disciplina="Tennis">
+    <nome>Rod Laver Arena</nome>
+    <tariffa>8.50</tariffa>
+  </campo>
+  <campo fieldID="18" disciplina="Tennis">
+    <nome>Centre Court</nome>
+    <tariffa>8.50</tariffa>
+  </campo>
+  <campo fieldID="19" disciplina="Tennis">
+    <nome>Connecticut Tennis Center</nome>
+    <tariffa>8.50</tariffa>
+  </campo>
+</campi>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prenotazioni xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Prenotazioni.xsd">
+  <prenotazione bookingID="1" pagamento="N" cliente="2">
+    <data>2024-05-30</data>
+    <fascia>
+      <ora_inizio>20:00:00</ora_inizio>
+      <ora_fine>21:00:00</ora_fine>
+    </fascia>
+    <campo disciplina="Basket">United Center</campo>
+    <totale>65.00</totale>
+  </prenotazione>
+</prenotazioni>
