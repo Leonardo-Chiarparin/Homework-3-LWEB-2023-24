@@ -1,0 +1,314 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Poppins,sans-serif;
+}
+
+h2 {
+	color: green;
+}
+
+.barra_navigazione{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(246,246,246);
+	height: 6.25em;
+	width: 100%;
+	border-bottom: 1px solid #696969;
+	overflow: hidden;
+	position: fixed;
+	top: 0%;
+	z-index: 9;
+}
+
+.container_logo {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	
+	opacity: 0;
+	animation: scorrimentoDx 1s ease forwards;
+	animation-delay: .30s;
+}
+
+.logo{
+	height: 100%;
+}
+
+.container_menu {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+	opacity: 0;
+	animation: scorrimentoBasso 1s ease forwards;
+	animation-delay: .30s;
+}
+
+.voce_menu {
+	margin-right: 2.5%;
+	padding-right: 2.5%;
+	border-right: 1px solid gray;
+}
+
+.voce_menu:first-child{
+	margin-left: 2.5%;
+	padding-left: 2.5%;
+	border-left: 1px solid gray;
+}
+
+.voce_menu a:link, .voce_menu a:visited{
+	font-size: 1.15em;
+	color: gray;
+	text-decoration: none;
+	transition: 0.6s;
+}
+
+.voce_menu a:hover{
+	color: black;
+	border-bottom-color: #2E8B57;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.container_corpo {
+	width: 100%;
+	height: 85%;
+	position: absolute;
+}
+
+.spazio_link {
+	height: 6.25em;
+}
+
+.container_principale {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.container_principale p {
+	text-align: justify;
+	line-height: 1.5;
+	padding-bottom: 2.5%;
+}
+
+.calcio {
+	padding-bottom: 1%;
+	color: green;
+}
+
+.container_tariffe {
+	border-color: #696969;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2.5%;
+}
+
+.tariffe {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 1px;	
+	border-color: #696969;
+	flex-direction: column;
+	box-shadow: 0 0.5em 1em gray;
+}
+
+.anteprime {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.anteprima {
+	margin: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 13.5em;
+	height: 18em;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-color: #696969;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 0.5em 1em gray;
+}
+
+.anteprima img {
+	z-index: 6;
+
+	opacity: 0;
+	animation: apparizione 7.5s ease forwards;
+	animation-delay: .30s;
+}
+
+.tariffa {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.paragrafo {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	text-align: justify;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-color: #696969;	
+}
+
+.paragrafo h2 {
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.prezzo {
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+}
+
+.stadi {
+	margin-bottom: 1.5%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+ul {
+	list-style-type:none;
+	padding-left: 0%;
+	width: 100%;
+	margin-top: -2.5%;
+}
+
+.stadio {
+	display: flex;
+	align-items: center;
+}
+
+.stadio p{
+	padding: 0.5%;
+}
+
+.stadio img{
+	width: 1.25em;
+	height: 1.25em;
+}
+
+.basket, .tennis {
+	padding-bottom: 1%;
+	color: green;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.prenotazione {
+	margin-top: 7.5%;
+	margin-bottom: 5%;
+	color: white;
+	background: none;
+	font-size: 1em;
+	cursor: pointer;
+	border-radius: 1.6em;
+	width: 12.5em;
+	height: 3.5em;
+	background-color: #8B4513;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #F4A460;
+	transition: .6s;
+	font-weight: bold;
+}
+
+.prenotazione:hover {
+	background-color: #F4A460;
+}
+
+.blank_space {
+	height: 6.5em;
+}
+
+.footer {
+	display: flex;
+	width: 100%;
+	justify-content: right;
+	align-items: center;
+	height: 3.25em;
+	overflow: hidden;
+	z-index: 12;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-shadow: 0.5em 0em 1em gray;
+	background-color: rgb(246,246,246);
+	border-top: 1px solid #696969;
+}
+
+.footer p {
+	font-weight: bold;
+	margin: 2.5%; 
+}
+
+@keyframes scorrimentoDx {
+	0% {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes scorrimentoSx {
+	0% {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes scorrimentoBasso {
+	0% {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes apparizione {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
